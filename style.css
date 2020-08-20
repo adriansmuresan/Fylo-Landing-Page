@@ -22,7 +22,7 @@ body {
   margin: 0;
 }
 
-h1, h2 {
+h1, h2, h4 {
   font-family: 'Railway', sans-serif;
 }
 
@@ -31,7 +31,7 @@ img {
 }
 
 .container {
-  padding: 20px;
+  padding: 30px;
   margin: 0 auto;
   width: 1200px;
   max-width: 100%;
@@ -87,6 +87,7 @@ form {
 }
 
 input {
+  font-family: 'Railway', sans-serif;
   border: 1px solid var(--very-dark-blue);
   border-radius: 2px;
   padding: 15px;
@@ -96,6 +97,8 @@ input {
 button {
   border: 1px solid var(--bright-blue);
   background-color: var(--bright-blue);
+  font-family: 'Railway', sans-serif;
+  font-weight: 700;
   color: #ffffff;
   border-radius: 2px;
   padding: 15px;
@@ -103,7 +106,7 @@ button {
   margin-left: 15px;
 }
 
-/* Sections */
+/* Section .light-purple */
 
 .light-purple {
   background-color: var(--light-grayis-blue);
@@ -132,5 +135,59 @@ button {
 /* Testimonial */
 .testimonial-box {
   background-color: #ffffff;
-  padding: 25px ;
+  padding: 25px;
+  margin-top: 40px;
+  width: 70%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+}
+
+.testimonial-box p {
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.user-info {
+  display: flex;
+  margin-top: 20px;
+}
+
+.user-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info h4 {
+  margin: 0;
+  font-weight: 600;
+}
+
+/* Section purple */
+
+.purple {
+  background-color: var(--desaturated-blue);
+  color: #ffffff;
+  padding: 50px 0;
+}
+
+.purple form {
+  flex-direction: column;
+}
+
+.purple form input {
+  font-family: 'Railway', sans-serif;
+  flex: 1;
+  border-radius: 2px;
+  border: none;
+}
+
+.purple form button {
+  font-family: 'Railway', sans-serif;
+  font-weight: 700;
+  margin: 17px 0;
+  width: 50%;
+  border-radius: 2px;
 }
