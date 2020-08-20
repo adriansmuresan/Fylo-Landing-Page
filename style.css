@@ -107,4 +107,30 @@ button {
 
 .light-purple {
   background-color: var(--light-grayis-blue);
+  margin-top: 100px;
+  position: relative;
+  padding: 50px 0;
+}
+
+.light-purple::before {
+  content: '';
+  background-image: url(./images/bg-curve-desktop.svg);
+  background-size: cover;
+  position: absolute;
+  top: -70px;
+  left: 0;
+  height: 70px;
+  width: 100%;
+}
+
+.green-link {
+  color: var(--moderate-cyan);
+  text-decoration: none;
+  border-bottom: 1px solid var(--moderate-cyan);
+}
+
+/* Testimonial */
+.testimonial-box {
+  background-color: #ffffff;
+  padding: 25px ;
 }
