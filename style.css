@@ -21,6 +21,10 @@ body {
   font-size: 1.2em;
 }
 
+h1, h2 {
+  font-family: 'Railway', sans-serif;
+}
+
 img {
   max-width: 100%;
 }
@@ -58,10 +62,34 @@ nav ul {
 }
 
 nav ul li {
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 nav ul li a {
   text-decoration: none;
   color: var(--very-dark-blue);
+  font-family: 'Railway', sans-serif;
+}
+
+/* Form */
+
+form {
+  display: flex;
+}
+
+input {
+  border: 1px solid var(--very-dark-blue);
+  border-radius: 2px;
+  padding: 15px;
+  flex: 0.7;
+}
+
+button {
+  border: 1px solid var(--bright-blue);
+  background-color: var(--bright-blue);
+  color: #ffffff;
+  border-radius: 2px;
+  padding: 15px;
+  flex: 0.3;
+  margin-left: 15px;
 }
